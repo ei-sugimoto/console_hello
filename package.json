@@ -1,0 +1,17 @@
+{
+  "name": "ei-sugimoto-sample-npm-package-hello",
+  "version": "0.1.0",
+  "description": "a sample of implemantation of a npm package",
+  "main": "dist/index.js",  
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ei-sugimoto",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}
